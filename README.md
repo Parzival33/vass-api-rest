@@ -1,5 +1,3 @@
 - Download Files
-- 
-- Run npm Start
-- 
+- Run npm start
 - go to: localhost:888
