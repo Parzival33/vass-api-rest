@@ -1,3 +1,5 @@
 - Download Files
 - Run npm start
 - go to: localhost:888
+- Log in
+- How to use: https://dare-nodejs-assessment.herokuapp.com/assessment-swagger/static/index.html
