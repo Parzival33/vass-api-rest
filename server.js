@@ -9,7 +9,8 @@ var request = require("request");
 var LocalStorage = require("node-localstorage").LocalStorage;
 localStorage = new LocalStorage("./scratch");
 var sUrlDestino = "https://dare-nodejs-assessment.herokuapp.com/api";
-
+app.use(express.static('public'));
+//app.set('view engine', 'html'); 
 const requestToken = (oClaves) => {
   
   request(
@@ -43,7 +44,7 @@ const asyncLocalStorage = {
 };
 
 app.get("/", (req, res, next) => {
-  res.status(200).send("Welcome to API REST");
+  res.render('index')
 });
 
 app.post("/login", function(req, res) {
@@ -60,9 +61,9 @@ app.post("/login", function(req, res) {
     .then(() => {
       requestToken(oClaves);
     }).then(() => {
-      res.send("Welcome");
+     // res.send("Welcome");
     });
-
+    res.send("Welcome");
   
 });
 
