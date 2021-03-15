@@ -1,1 +1,5 @@
-# vass-api-rest
+- Download Files
+- 
+- Run npm Start
+- 
+- go to: localhost:888
