@@ -2,10 +2,10 @@
 - Run npm start
 - go to: localhost:888
 - Log in
-- How to use: https://dare-nodejs-assessment.herokuapp.com/assessment-swagger/static/index.html
+- Now you can use the GET endpoints defined on: https://dare-nodejs-assessment.herokuapp.com/assessment-swagger/static/index.html with the specified options
 
 pending:
-- Fix token refresh
+- Fix token refresh/auth
 - Modularize & refactor
 - Tests
 
