@@ -6,7 +6,7 @@ chai.should();
 chai.use(chaiHttp);
 
 describe("Server APIs", () => {
-  describe("Test Get route", () => {
+  describe("Test Get", () => {
     it("It should return all tasks", done => {
       //const taskId = 1;
       chai.request(server).get("/clients").end((err, response) => {
